@@ -91,6 +91,9 @@ Pod::Spec.new do |s|
 
   s.public_header_files  = "BugBytesSDK.framework/**/*.h"
   s.vendored_frameworks = "BugBytesSDK.framework"
+  s.resource_bundles = {
+    'BugBytesSDK' => ['BugBytesSDK.bundle']
+  }
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
