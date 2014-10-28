@@ -53,10 +53,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Michael Kral" => "me@mkr.al" }
+  #s.author             = { "Michael Kral" => "me@mkr.al" }
   # Or just: s.author    = "Michael Kral"
-  # s.authors            = { "Michael Kral" => "me@mkr.al" }
-  # s.social_media_url   = "http://twitter.com/Michael Kral"
+  s.authors            = { "Cloverstick" => "contact@cloverstick.com" }
+  s.social_media_url   = "http://twitter.com/cloverstick"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "Photos", "QuartzCore", "Accelerate"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
